@@ -1,0 +1,144 @@
+body {
+
+    margin: 0;
+    padding: 0;
+background-image: url(img/back.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    border: solid 3px black;
+    margin: 10px;
+    margin-top: 2px;
+background-image: url(img/header.jpg);
+
+}
+
+.nome{
+
+background-color: #fff;
+padding: 20px;
+
+}
+
+
+.container {
+
+    height: 530px;
+    width: 900px;
+    overflow: hidden;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: double 6px;
+    box-shadow: 20px 10px 10px;
+
+}
+
+.bar {
+
+    background-color: rgba(64, 130, 196, 0.91);
+    width: 30px;
+    height: 5px;
+    margin: 7px;
+    transition: .3s;
+
+
+}
+
+
+.navegacao {
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+
+}
+
+.bar:hover {
+
+    background-color: rgba(134, 134, 134, 0.1);
+
+}
+
+input {
+
+    display: none;
+
+}
+
+.imagens {
+
+    display: flex;
+    height: 100%;
+    width: 600%;
+
+}
+
+.imagem {
+
+    width: 16.6666666667%;
+    transition: .3s;
+
+}
+
+.imagem img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+#imagem1:checked~.img1 {
+
+    margin-left: 0;
+
+
+}
+
+#imagem2:checked~.img1 {
+
+    margin-left: -16.66666666667%;
+
+}
+
+#imagem3:checked~.img1 {
+
+    margin-left: -33.3333333334%;
+
+
+}
+
+#imagem4:checked~.img1 {
+
+    margin-left: -50%;
+
+
+}
+
+#imagem5:checked~.img1 {
+
+    margin-left: -66.6666666667%;
+
+
+}
+
+#imagem6:checked~.img1 {
+
+    margin-left: -83.3333333333%;
+
+
+}
